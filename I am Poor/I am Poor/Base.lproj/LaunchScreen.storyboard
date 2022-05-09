@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't ask me for money 💰" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NzS-oc-6kp">
+                                <rect key="frame" x="0.0" y="144" width="414" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="rhU-oA-WLP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Poor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SC2-kd-Pav">
+                                <rect key="frame" x="0.0" y="204" width="414" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ceN-zP-U2w"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coal" translatesAutoresizingMaskIntoConstraints="NO" id="aBa-X2-hKa">
+                                <rect key="frame" x="87" y="328" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="aBa-X2-hKa" secondAttribute="height" multiplier="1:1" id="uPy-i1-Nf9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.14117647059999999" green="0.2784313725" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="aBa-X2-hKa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="9Ik-vD-P8m"/>
+                            <constraint firstItem="aBa-X2-hKa" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="EtD-8X-Dt1"/>
+                            <constraint firstItem="NzS-oc-6kp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Iqc-VM-qlK"/>
+                            <constraint firstItem="SC2-kd-Pav" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RIH-49-Hbh"/>
+                            <constraint firstItem="SC2-kd-Pav" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VHf-SB-M2j"/>
+                            <constraint firstItem="NzS-oc-6kp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="XCr-br-kBE"/>
+                            <constraint firstItem="aBa-X2-hKa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ccy-96-hZA"/>
+                            <constraint firstItem="NzS-oc-6kp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cdc-YE-rgS"/>
+                            <constraint firstItem="NzS-oc-6kp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dWx-UV-A1q"/>
+                            <constraint firstItem="SC2-kd-Pav" firstAttribute="top" secondItem="NzS-oc-6kp" secondAttribute="bottom" constant="10" id="ydV-at-9DQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aBa-X2-hKa" secondAttribute="trailing" constant="87" id="zyh-xT-Y22"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coal" width="151" height="128"/>
+    </resources>
+</document>
